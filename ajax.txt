@@ -1,0 +1,109 @@
+﻿ajax
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function(){
+    if(xmlhttp.readyState==4&& xmlhttp.state==200){
+        a = xmlhttp.responseText;
+    }
+
+}
+xmlhttp.open("POST",url,true)
+sendRequestHeader("Content-type","")
+xmlhttp.send()
+
+
+$.ajax(
+    {
+        url:"",
+        type:"POST/GET",
+        data{
+            "name":'aaaaa',
+
+        },
+        timeout:5000,
+        datatype:'json',
+        beforeSend:function(){
+
+        },
+        success:function(data){
+
+        },
+        error:function(err){
+
+        },
+
+
+    }
+)
+
+
+
+
+
+$.each($('input:checkbox:checked').parent(),function(){
+    XXXXXX
+})
+
+$('input:checkbox:checked').parent().nextAll('.cool09')
+
+
+
+
+
+天天果园
+登录注册
+session,cookie
+加密
+权限（装饰器＋数据表中权限字段）
+邮箱，手机验证码
+验证码
+中间件CSRF_TOKEN
+
+
+首页展示，详细页展示，列表页展示
+
+
+购物车
+JS
+
+
+下订单
+一个商品，两个人买（乐观锁，队列。。。。。。）
+快照
+
+个人信息
+单点登录
+
+支付
+调用第三方接口
+
+××××××××××××××××××
+搜索
+××××××××××××××××××
+
+天天果园
+
+租赁网站
+
+自助点餐
+
+洗车系统
+
+图书借阅
+
+
+博客
+
+爬虫
+
+
+中期项目
+
+
+
+
+
+
+
+SVN  集中式  需要中央服务器  类似银行
+git 分布式   不需要中央服务器  任何一台机器都可以是服务器  类似区块链技术
+保存资源 共享资源
